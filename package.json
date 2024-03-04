@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.2",
+    "@fontsource/ropa-sans": "^5.0.8",
+    "@formkit/auto-animate": "^0.8.1",
+    "@kyvg/vue3-notification": "^3.2.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "nuxt": "^3.10.3",
+    "swiper": "^11.0.7",
+    "vue": "^3.4.21",
+    "vue-countdown": "^1.0.4",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^5.0.0-4",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "sass": "^1.71.1",
+    "tailwindcss": "^3.4.1"
+  }
+}
